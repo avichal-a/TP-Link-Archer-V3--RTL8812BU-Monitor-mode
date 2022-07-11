@@ -29,7 +29,9 @@ or
 
 # Monitor Mode
 
-$ suod iwconfig wlx54af9784dde0 mode monitor  
+$ sudo airmon-ng check kill -----very important command to gett all capture packets including eapol
+
+$suod iwconfig wlx54af9784dde0 mode monitor  
 
   wlx54af9784dde0 : 
           
